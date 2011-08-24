@@ -1,6 +1,6 @@
 <?php
 
- /* Exaple:
+ /* Example:
  
      $info_array = array(
 	  "age_max" => 18,
