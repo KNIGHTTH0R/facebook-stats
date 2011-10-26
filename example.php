@@ -1,4 +1,17 @@
 ﻿<?php
+
+/* Example:
+ 
+     $info_array = array(
+	  "age_max" => 18,
+	  "country" => array("RO"=>"Romania"),
+	 ); 
+ 
+	 $stats = new facebook_statistics($info_array);
+	 print_r($stats->payload['UserCount']); 
+	 
+ */
+
 include "facebook.class.php";
 
 /* quick example */
